@@ -34,11 +34,8 @@ const Header = () => {
                         </li>
                         <li className="relative group" >
                             <NavLink to="/">
-                                <img className="h-10" src={images.Logo} alt="Logo" />
+                                <img className="h-12" src={images.Logo} alt="Logo" />
                             </NavLink>
-                            <span className="cursor-pointer text-black absolute transition-all duration-500 font-bold right-0 top-0 group-hover:right-[90%] opacity-0 group-hover:opacity-100">
-                                /
-                            </span>
                         </li>
                         <li className="relative group" >
                             <NavLink to="/Projects" className="px-4 py-2">
