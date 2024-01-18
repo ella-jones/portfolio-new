@@ -7,10 +7,8 @@ module.exports = {
     extend: {
       colors: {
 				background: "#FFFEEB",
-				tangerine: "#FB6131",
-				apricot: "#FFBD59",
-				black: "000000",
-        white: "FFFFFF"
+				'tangerine': "#FB6131",
+				'apricot': "#FFBD59",
 			},
 			fontFamily: {
 				poppins: ["Poppins", "sans-serif"],
