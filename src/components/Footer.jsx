@@ -5,7 +5,7 @@ import { ImLinkedin } from "react-icons/im";
 
 const Footer = () => {
   return (
-    <div className='bg-tangerine text-white flex flex-col lg:flex-row lg:justify-between lg:items-center lg:px-10 lg:py-5 text-center w-full py-3 absolute bottom-0 '>
+    <div className='bg-tangerine text-white flex flex-col lg:flex-row lg:justify-between lg:items-center lg:px-10 lg:py-5 text-center w-full py-3 relative inset-x-0 bottom-0 '>
         <div className='flex justify-around px-32 lg:px-0 lg:w-1/5 '>
             <a href="https://www.instagram.com/ella.jones__/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={28} />
