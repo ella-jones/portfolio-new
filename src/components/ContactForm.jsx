@@ -60,7 +60,7 @@ const ContactForm = () => {
 
             <button
                 type="submit"
-                className="border-2 border-apricot bg-apricot rounded-3xl px-5 py-2 mt-8 mb-2 w-32 text-white font-semibold text-base md:text-lg"
+                className="border-2 border-apricot bg-apricot rounded-3xl px-12 py-2 mt-8 mb-2 text-white font-semibold text-base md:text-lg"
             >
                 Send
             </button>
