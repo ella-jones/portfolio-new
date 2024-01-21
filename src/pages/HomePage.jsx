@@ -39,7 +39,7 @@ const HomePage = () => {
 
             <section className="px-16 lg:px-28 py-8 lg:py-20">
                 <h2 className="text-3xl  md:text-4xl lg:text-5xl font-semibold lg:w-1/3 text-center lg:text-left">Projects I've Worked On</h2>
-                <div className="mt-12 flex flex-col items-center gap-3 md:flex-row md:justify-between">
+                <div className="mt-12 flex flex-col items-center gap-x-3 gap-y-8 md:flex-row md:justify-between">
                     <div> 
                         <img src={images.Headshot} alt='Placeholder' className="w-80 h-96 object-cover rounded-3xl"/>
                     </div>
@@ -51,7 +51,7 @@ const HomePage = () => {
                     </div>
                 </div>
                 <NavLink to="/Projects" className="flex justify-center">
-                    <button className="flex items-center gap-2 border-2 text-lg text-tangerine border-tangerine rounded-3xl px-4 py-2 mt-16">
+                    <button className="flex items-center gap-2 border-2 text-lg text-tangerine border-tangerine rounded-3xl px-4 py-2 mt-8 md:mt-16">
                         <h1 className="font-semibold">View All</h1>
                         <FaArrowRightLong />
                     </button>
